@@ -67,5 +67,5 @@ server.all("*", (req, res) => {
 // Start the server
 httpServer.listen(4000, (err) => {
   if (err) throw err;
-  console.log("Server is listening on http://localhost:4000");
+  console.log("Server is listening ...");
 })
